@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
-import '../styles/Carousel.css/'
+import imgHerramientasManuales from '../assets/herramientasManuales.png';
+import imgFijacionSujetacion from '../assets/fijacionSujetacion.png';
+import imgHerramientasElectricas from '../assets/herramientasElectricas.png';
+import imgFontaneriaPlomeria from '../assets/fontaneriaPlomeria.png';
 
 const images = [
-  "/assets/herramientasManuales.png",
-  "/assets/fijacionSujetacion.png",
-  "/assets/herramientasElectricas.png",
-  "/assets/fontaneriaPolimeria.png",
+  imgHerramientasManuales,
+  imgFijacionSujetacion,
+  imgHerramientasElectricas,
+  imgFontaneriaPlomeria,
 ];
 
 export const Carousel = () => {

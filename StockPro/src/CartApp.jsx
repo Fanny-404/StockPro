@@ -1,10 +1,13 @@
 import { useItemsCart } from "./hooks/useItemsCart"
 import { CartRoutes } from "./routes/CartRoutes";
+import { Carousel } from "./components/Carousel.jsx";
 
 export const CartApp = () => {
     const { cartItems, handlerAddProductCart, handlerDeleteProductCart } = useItemsCart();
 
     return (
+        <>
+        <Carousel />
         <div className="container my-4">
             <h3>Cart App</h3>
             <CartRoutes
@@ -13,5 +16,6 @@ export const CartApp = () => {
                 handlerDeleteProductCart={handlerDeleteProductCart}
             />
         </div>
+        </>
     );
 }

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { getProducts } from "../services/productService";
 import { ProductCardView } from "./ProductCardView";
-import { Carousel } from "./Carousel";
 
 export const CatalogView = ({ handler }) => {
 
@@ -13,10 +12,6 @@ export const CatalogView = ({ handler }) => {
         }, []);
     return (
         <>
-            <div>
-                <Carousel />
-            </div>
-
             <div className="row">
                 {products.map(prod => (
                     <div className="col-4 my-2"
