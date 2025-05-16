@@ -4,7 +4,7 @@ export const Navbar = ({ login, handlerLogout }) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">CartApp & UsersApp</a>
+                <a className="navbar-brand" href="#">StockPro</a>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -31,7 +31,7 @@ export const Navbar = ({ login, handlerLogout }) => {
                             <NavLink className="nav-link" to="/invoice">Factura</NavLink>
                         </li>
 
-                        {/* UsersApp */}
+                        {/* UserRoutes */}
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/users">Usuarios</NavLink>
                         </li>
