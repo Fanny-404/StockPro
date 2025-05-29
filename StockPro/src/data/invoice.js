@@ -19,19 +19,24 @@ export const invoice = {
     items: [
         {
             id: 1,
-            product: 'Cpu Intel i7',
-            price: 499,
-            quantity: 1,
+            product: 'Tornillo 1/2" x 2"',
+            description: 'Rosca standar',
+            price: 7,
+            quantity: 15,
         },
-        {   id: 2,
-            product: 'Corsair Keyboard Mecanico',
-            price: 150,
+        {
+            id: 2,
+            product: 'Tuerca 1/2"',
+            description: 'Rosca standar',
+            price: 5,
             quantity: 2,
+
         },
         {
             id: 3,
-            product: 'Monitor Asus',
-            price: 350,
+            product: 'Arandela plana de 1/2"',
+            description: 'Arandela plana de 1/2"',
+            price: 2,
             quantity: 1,
         },
     ]
