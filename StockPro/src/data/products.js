@@ -1,38 +1,62 @@
 export const products = [
     {
         id: 1,
-        name: 'Teclado Mecanico RGB',
-        description: 'Teclado Mecanico con luces RGB switches cherry red',
-        price: 1000
+        name: 'Tornillo 1/2" x 2"',
+        description: 'Rosca standar',
+        price: 7
     },
     {
         id: 2,
-        name: 'Samsung Smart TV 55',
-        description: 'Excelente tv LCD...',
-        price: 3000
+        name: 'Tuerca 1/2"',
+        description: 'Rosca standar',
+        price: 5
     },
     {
         id: 3,
-        name: 'Audifono Bluetooth Sony',
-        description: 'Audifono Bluetooth para smartphone',
-        price: 770
+        name: 'Arandela plana de 1/2"',
+        description: 'Arandela plana de 1/2"',
+        price: 2
     },
     {
         id: 4,
-        name: 'Memoria Corsair 8GB DDR5',
-        description: 'Memoria RAM optimizada para Juegos',
-        price: 3700
+        name: 'Arandela de presión de 1/2"',
+        description: 'Arandela de presión de 1/2"',
+        price: 2.5
     },
     {
         id: 5,
-        name: 'Asus Nvidia RTX',
-        description: 'Tarjeta Grafica para juegos en 4k',
-        price: 5000
+        name: 'Broca para fierro de 1/2"',
+        description: 'Broca para fierro de 1/2"',
+        price: 12
     },
     {
         id: 6,
-        name: 'CPU Intel Core i5',
-        description: 'Optimizada para tareas multicore',
-        price: 4000
+        name: 'Cinta electrica',
+        description: 'Cinta aislante de todos colores',
+        price: 20
+    },
+    {
+        id: 7,
+        name: 'Teflón',
+        description: 'Cinta blanca para tuvo de plástico',
+        price: 7
+    },
+    {
+        id: 8,
+        name: 'Cinta electricaNiple cpvc 1/4"',
+        description: '',
+        price: 7
+    },
+    {
+        id: 9,
+        name: 'Taquete 1/2"',
+        description: '',
+        price: 4
+    },
+    {
+        id: 10,
+        name: 'Llave combinada 1/2"',
+        description: '',
+        price: 20
     },
 ]
