@@ -4,6 +4,8 @@ import imgFijacionSujetacion from '../assets/fijacionSujetacion.png';
 import imgHerramientasElectricas from '../assets/herramientasElectricas.png';
 import imgFontaneriaPlomeria from '../assets/fontaneriaPlomeria.png';
 
+import '../styles/Carousel.css'; 
+
 const images = [
   imgHerramientasManuales,
   imgFijacionSujetacion,
@@ -23,11 +25,11 @@ export const Carousel = () => {
   }, []);
 
   return (
-    <div className="w-full mb-4 flex justify-center">
+    <div className="carousel-container">
       <img
         src={images[index]}
         alt={`carousel-${index}`}
-        className="w-full max-w-screen-md h-64 object-cover rounded shadow"
+        className="carousel-image"
       />
     </div>
   );
